@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: 23 45 40;
+  --color-muted: 79 96 91;
+  --color-forest: 38 95 86;
+  --color-sea: 77 121 121;
+  --color-paper: 247 249 246;
+  --color-line: 216 226 221;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: rgb(var(--color-ink));
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(77, 121, 121, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(38, 95, 86, 0.14), transparent 30%),
+    linear-gradient(180deg, rgb(251 252 251) 0%, rgb(var(--color-paper)) 100%);
+}
+
+::selection {
+  background: rgb(var(--color-forest) / 0.18);
+  color: rgb(var(--color-ink));
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.font-display {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
