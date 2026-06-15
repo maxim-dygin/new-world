@@ -345,4 +345,8 @@ export const landingPageContentRu: LandingPageContent = {
     description:
       'Новый Мир — это пространство для спокойного разговора о достойной жизни, общем будущем и честных правилах.',
   },
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 4980a6aef7cb7906bd0d932ff85bb94bb87ee3e5

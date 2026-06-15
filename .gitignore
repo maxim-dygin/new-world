@@ -9,4 +9,8 @@ coverage
 .env.development.local
 .env.test.local
 .env.production.local
+<<<<<<< HEAD
 *.log
+=======
+*.log
+>>>>>>> 4980a6aef7cb7906bd0d932ff85bb94bb87ee3e5

@@ -65,4 +65,8 @@
 - [ ] Timeline of peaceful civic ideas.
 - [ ] Library of articles and essays.
 - [ ] Anonymous feedback form.
+<<<<<<< HEAD
 - [ ] Community guidelines.
+=======
+- [ ] Community guidelines.
+>>>>>>> 4980a6aef7cb7906bd0d932ff85bb94bb87ee3e5
